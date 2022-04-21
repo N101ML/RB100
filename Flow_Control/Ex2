@@ -1,0 +1,15 @@
+# Flow Control Exercise 2
+
+def caps(sentence)
+  if sentence.length > 10
+    sentence.upcase!
+  else
+    sentence
+  end
+end
+
+puts "Enter a string"
+test_string = gets.chomp
+
+puts caps(test_string)
+

@@ -1,0 +1,7 @@
+titles = { Terminator: 1984, 
+           Robocop: 1987, 
+           Forrest_Gump: 1994}
+
+puts titles[:Terminator]
+puts titles[:Robocop]
+puts titles[:Forrest_Gump]

@@ -1,0 +1,11 @@
+num = 1773
+
+thou = num / 1000
+hun = num % 1000 / 100
+ten = num % 100 / 10
+ones = num % 10
+
+puts thou
+puts hun
+puts ten
+puts ones
